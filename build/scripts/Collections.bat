@@ -85,7 +85,7 @@ set CMD_LINE_ARGS=%*
 set CLASSPATH=%APP_HOME%\lib\Collections-1.0.jar
 
 @rem Execute Collections
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %COLLECTIONS_OPTS%  -classpath "%CLASSPATH%" com.monotonic.collections._2_what_are_collections.after.TheArrayProblem %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %COLLECTIONS_OPTS%  -classpath "%CLASSPATH%" com.monotonic.collections._2_what_are_collections.after.CollectionConcepts %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
